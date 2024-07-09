@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.banner-container {
+  max-width: 1320px;
+  min-height: 600px;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  border: none;
+  border-radius: 16px;
+  background-image: url(images/Banner\ Image.png);
+  background-blend-mode: overlay;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  color: #ffffff;
+  text-align: center;
+}
+.banner-content,
+h1 {
+  font-size: 72px;
+  font-weight: 900;
+}
+.banner-content,
+p {
+  font-size: 32px;
+  font-weight: 400;
+}
+/* 65% section container style */
+.first-section-container {
+  width: 802.9px;
+  height: 806px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.first-section-container h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.first-section-container p {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.first-section-container h2 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.first-section-container img {
+  width: 802.9px;
+  height: 500px;
+  margin-top: 20px;
+}
+/* mid-night-party style section */
+.midnight-party-container {
+  width: 1320px;
+  height: 600px;
+  background: url(images/Vectorrr.png);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.midnight-party-content h1 {
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+}
+.midnight-party-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.midnight-party-content button {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: transparent;
+  color: #ffffff;
+  border: none;
+  margin-top: 20px;
+  margin-left: 126px;
+  cursor: pointer;
+}
+.midnight-party-content {
+  margin-left: 126px;
+}
+.midnight-party-img {
+  margin-right: 138px;
+  width: 349.16px;
+  height: 464.65px;
+}
+/* shared-color */
+.shared-color {
+  color: #ff0000;
+}
+/* location section */
+.location-container {
+  width: 1320px;
+  height: 482px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.location-content {
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  padding-top: 100px;
+}
+.btn {
+  width: 167px;
+  height: 56px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  background: rgb(255, 0, 0);
+  color: #ffffff;
+  border: none;
+  margin-top: 40px;
+}
+/* offer-section */
+.offer-container-section {
+  width: 1320px;
+  height: 463px;
+  margin: 0 auto;
+}
+.offer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.offer-content h5 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-content h1 {
+  color: rgb(7, 2, 17);
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 10px;
+}
+.offer-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.offer-more-content h1 {
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.offer-more-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.offer-more-content img {
+  margin-top: 10px;
+}
+/* functional section */
+
+.functonal-container {
+  width: 1068px;
+  height: 260px;
+  text-align: center;
+  margin: 0 auto;
+}
+.functonal-container h5 {
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.functonal-container h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.functonal-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
