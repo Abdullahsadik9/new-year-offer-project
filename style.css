@@ -220,3 +220,30 @@ p {
   font-size: 20px;
   font-weight: 500;
 }
+/* discount section */
+.discount-container {
+  margin: 0 auto;
+  width: 1320px;
+  height: 662.07px;
+  position: relative;
+}
+.discount-content {
+  width: 1320px;
+  height: 229px;
+  background-color: #ff0000;
+  position: absolute;
+  top: 80%;
+
+  position: relative;
+}
+.images {
+  display: flex;
+  position: absolute;
+  bottom: 0%;
+}
+.discount-img-one {
+  margin-top: 200px;
+}
+.discount-img-two {
+  margin-top: 300px;
+}
